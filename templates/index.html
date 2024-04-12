@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Prediction and Explanation</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+        }
+        textarea {
+            width: 80%;
+            height: 250px;  /* Larger input box */
+        }
+        button {
+            font-size: 16px;
+            padding: 20px 20px;
+            cursor: pointer;
+        }
+        .human-prediction {
+            color: orange;  /* Orange text for Human predictions */
+        }
+        .ai-prediction {
+            color: blue;  /* Blue text for AI predictions */
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Classification and Explanation</h1>
+    <form method="post" action="/">
+        <textarea name="text" placeholder="Enter text here...">{{ text }}</textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if prediction %}
+        <!-- Apply color based on the type of prediction -->
+        <h2 class="{{ 'human-prediction' if prediction == 'Human-written' else 'ai-prediction' }}">Prediction: {{ prediction }}</h2>
+        <div>{{ explanation|safe }}</div>
+    {% endif %}
+</body>
+</html>
