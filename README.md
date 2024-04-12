@@ -35,6 +35,10 @@ Provides performance metrics and interpretation methods like feature importance 
 
 Setup using Python's Flask framework, incorporating the Random Forest Classifier, TF-IDF Vectorizer, and PCA.
 
+![WhatsApp Image 2024-04-12 at 12 31 25 PM](https://github.com/edojatheophilus/AI-vs-Human-Text-Detection/assets/141888099/343d55fd-6229-43fb-bde5-927ef49aed97)
+
+
+
 
 
 
