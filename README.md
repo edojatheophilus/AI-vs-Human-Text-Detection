@@ -2,7 +2,7 @@
 In the realm of Natural Language Processing (NLP) and Machine Learning (ML), the ability to differentiate between human-written and AI-generated text is pivotal.
 The objective of this project is to develop robust methodologies for detecting AI-generated text within a corpus of textual data. 
 By leveraging data analysis techniques and machine learning models, we aim to accurately classify text entries as either human-written or AI-generated.
-The ability to discern between human and AI-generated text holds implications across various domains, including journalism, social media,  academia, legal compliance, marketing & advertising and  entertainment .
+The ability to discern between human and AI-generated text holds implications across various domains, including journalism, social media,  academia, legal compliance, marketing & advertising and  entertainment 
 
 The dataset utilized in this analysis comprises a substantial collection of texts sourced from Kaggle, encompassing both AI-generated and human-written content.
 
